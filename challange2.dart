@@ -29,6 +29,10 @@ void main() {
   num celciusR = konversiReamurCelcius(reamur);
   num celciusK = konversiKelvinCelcius(kelvin);
 
+  celciusF = double.parse(celciusF.toStringAsFixed(2));
+  celciusR = double.parse(celciusR.toStringAsFixed(2));
+  celciusK = double.parse(celciusK.toStringAsFixed(2));
+
   print('$fahrenheit derajat fahrenheit');
   print('$reamur derajat reamur');
   print('$kelvin derajat kelvin');
